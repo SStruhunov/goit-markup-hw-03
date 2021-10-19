@@ -95,6 +95,10 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--blue-color);
+  width: 145px;
+  height: 31px;
+  margin-top: 24px;
+  margin-left: 215px;
 }
 .logo-blue {
   font-family: Raleway;
@@ -112,32 +116,38 @@ ul {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
+.header-nav {
+  width: 294px;
+  height: 16px;
+  margin-top: 32px;
+  margin-left: 90px;
+}
 .header-nav-list {
   list-style: none;
   display: flex;
 }
 .header-nav-list-item {
-  padding: 50px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  margin-right: 50px;
 
   color: #212121;
 }
 .header-contact-list {
   display: flex;
   list-style: none;
-  /* justify-content: flex-end; */
+  margin: 32px 50px 32px 331px;
 }
 .header-contact-list-item {
-  padding: 50px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  margin-left: 50px;
 
   /* color: var(--main-grey-color); */
 }
@@ -151,15 +161,17 @@ ul {
 /* ----------------Section click --------------------*/
 .main-content-click {
   background-color: var(--footer-bg-color);
+  
 }
 .main-content-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  /* text-align: center; */
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
+
 }
 .main-content-btn {
   background: var(--blue-color);
@@ -170,9 +182,11 @@ ul {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-}
+  
+
 
 /* ------------------What are we doing-------------------- */
+
 .our-features-section {
   background-color: var(--white-color);
 }
