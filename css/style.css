@@ -25,7 +25,11 @@ ul {
   padding: 0;
   list-style: none;
 }
-*,*::before,*::after {  box-sizing: border-box;}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* ------------------buttons ----------------------*/
 
 .btn {
@@ -62,7 +66,6 @@ ul {
 .link {
   text-decoration: none;
   color: var(--main-grey-color);
-  
 }
 .link-header {
   text-decoration: none;
@@ -87,17 +90,16 @@ ul {
 /* ------------------------header------------------ */
 
 .header {
-  
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: var(--white-color);
- 
-  border: 1px solid #ECECEC;
+
+  border: 1px solid #ececec;
 }
 .header-flex {
   display: flex;
 }
-.container{
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -105,14 +107,13 @@ ul {
 }
 
 .logo {
-margin-right: 93px;
+  margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--blue-color);
- 
 }
 .logo-blue {
   font-family: Raleway;
@@ -121,7 +122,6 @@ margin-right: 93px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--black-color);
- 
 }
 .logo-white {
   font-family: Raleway;
@@ -133,14 +133,12 @@ margin-right: 93px;
 }
 .header-nav {
   display: flex;
-  align-items: center ;
-
+  align-items: center;
 }
 .header-nav-list {
   list-style: none;
   display: flex;
   /* margin-right: 331px; */
-  
 }
 .header-nav-list-item {
   font-family: Roboto;
@@ -156,41 +154,40 @@ margin-right: 93px;
   margin-right: 0px;
 }
 .header-contact-list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   /* justify-content: flex-end; */
   list-style: none;
   margin-left: 331px;
 }
 .header-contact-list-item {
-
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   margin-right: 50px;
-
 }
 .header-contact-list-item:last-child {
   margin-right: 0px;
+}
 /* ----------------Main content------------------ */
 
 .main {
-  background: var(--white-color);
-  
+  background-color: var(--white-color);
 }
-
 
 /* ----------------Section click --------------------*/
 .main-content-click {
   background-color: var(--footer-bg-color);
-
-  /* width: 1600px;
-  height: 600px; */
-  
+  align-items: center;
+  min-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-content-text {
+  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -198,9 +195,7 @@ margin-right: 93px;
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
-
-
-
+  margin-bottom: 30px;
 }
 .main-content-btn {
   background: var(--blue-color);
@@ -211,8 +206,10 @@ margin-right: 93px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-  
-
+  margin-top: 30px;
+  margin-left: 700px;
+  margin-bottom: 200px;
+}
 
 /* ------------------What are we doing-------------------- */
 
