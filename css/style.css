@@ -25,6 +25,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+*,*::before,*::after {  box-sizing: border-box;}
 /* ------------------buttons ----------------------*/
 
 .btn {
@@ -61,6 +62,7 @@ ul {
 .link {
   text-decoration: none;
   color: var(--main-grey-color);
+  
 }
 .link-header {
   text-decoration: none;
@@ -85,20 +87,32 @@ ul {
 /* ------------------------header------------------ */
 
 .header {
+  
+  padding-top: 24px;
+  padding-bottom: 25px;
   background-color: var(--white-color);
+ 
+  border: 1px solid #ECECEC;
+}
+.header-flex {
   display: flex;
 }
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .logo {
+margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--blue-color);
-  width: 145px;
-  height: 31px;
-  margin-top: 24px;
-  margin-left: 215px;
+ 
 }
 .logo-blue {
   font-family: Raleway;
@@ -107,6 +121,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--black-color);
+ 
 }
 .logo-white {
   font-family: Raleway;
@@ -117,14 +132,15 @@ ul {
   color: var(--white-color);
 }
 .header-nav {
-  width: 294px;
-  height: 16px;
-  margin-top: 32px;
-  margin-left: 90px;
+  display: flex;
+  align-items: center ;
+
 }
 .header-nav-list {
   list-style: none;
   display: flex;
+  /* margin-right: 331px; */
+  
 }
 .header-nav-list-item {
   font-family: Roboto;
@@ -136,31 +152,42 @@ ul {
 
   color: #212121;
 }
+.header-nav-list-item:last-child {
+  margin-right: 0px;
+}
 .header-contact-list {
-  display: flex;
+    display: flex;
+    align-items: center;
+  /* justify-content: flex-end; */
   list-style: none;
-  margin: 32px 50px 32px 331px;
+  margin-left: 331px;
 }
 .header-contact-list-item {
+
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  margin-left: 50px;
+  margin-right: 50px;
 
-  /* color: var(--main-grey-color); */
 }
-
+.header-contact-list-item:last-child {
+  margin-right: 0px;
 /* ----------------Main content------------------ */
 
 .main {
   background: var(--white-color);
+  
 }
+
 
 /* ----------------Section click --------------------*/
 .main-content-click {
   background-color: var(--footer-bg-color);
+
+  /* width: 1600px;
+  height: 600px; */
   
 }
 .main-content-text {
@@ -171,6 +198,8 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
+
+
 
 }
 .main-content-btn {
