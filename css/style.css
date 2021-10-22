@@ -35,30 +35,22 @@ ul {
 .btn {
   background: var(--secondary-grey-color);
   font-family: Roboto;
-
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   color: var(--black-color);
   cursor: pointer;
+  border-radius: 4px;
+  border: 4px var(--blue-color);
+  padding: 6px 22px;
+  /* margin: 90px 8px 50px 0px; */
 }
 .btn:hover,
 .btn:focus {
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
-}
-.main-content-btn {
-  /* background: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: var(--white-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  cursor: pointer; */
 }
 
 /* --------------------links--------------------- */
@@ -80,7 +72,7 @@ ul {
 
 .link-footer {
   text-decoration: none;
-  color: var(--main-grey-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .link-footer:hover,
 .link-footer:focus {
@@ -186,6 +178,7 @@ ul {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  /* margin: 0px auto; */
 }
 .main-content-text {
   font-family: Roboto;
@@ -198,9 +191,13 @@ ul {
   color: var(--white-color);
   margin-bottom: 30px;
 }
+
 .main-content-btn {
   font-family: Roboto;
   font-style: normal;
+  position: absolute;
+  left: 45%;
+
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-color);
@@ -211,9 +208,10 @@ ul {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
-  margin-top: 30px;
-  margin-left: 700px;
-  margin-bottom: 200px;
+  border-radius: 4px;
+  border: 4px var(--blue-color);
+  /* overflow: hidden; */
+  /* margin: 0px auto; */
 }
 
 /* ------------------What are we doing-------------------- */
@@ -317,6 +315,10 @@ ul {
   height: 368px;
   margin-right: 30px;
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  border: 0px 0px 4px 4px var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .our-team-list-item:last-child {
   margin: 0;
@@ -374,6 +376,9 @@ ul {
   list-style: none;
 }
 .footer-address-list-item {
+  /* color: var(--main-grey-color); */
+  /* color: #ffffff99; */
+
   margin-bottom: 9px;
 }
 .footer-address-list-item:last-child {
@@ -382,27 +387,64 @@ ul {
 
 /* ------------------------------Portfolio------------------------------------- */
 .portfolio {
+  /* width: 1600px; */
+  /* border: 1px solid #ececec; */
+}
+.portfolio-examples {
+}
+.portfolio-btn-section {
 }
 /* -------------------portfolio filter------------------- */
 .portfolio-filter-section {
 }
 .portfolio-filter-section-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.portfolio-filter-section-list-item {
+  /* font-family: Roboto; */
+  margin-right: 8px;
+}
+.portfolio-filter-section-list-item:last-child {
+  margin-right: 0px;
 }
 /* ------------------portfolio examples section--------------- */
 .portfolio-examples-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  /* justify-content: center; */
+  padding-bottom: 94px;
 }
+.portfolio-examples-list-item {
+  /* margin-right: 30px; */
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .portfolio-examples-list-item-title {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2.25;
   letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
 
   color: var(--black-color);
 }
 .portfolio-examples-list-item-text {
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  padding: 0px 24px 20px 24px;
+}
+.portfolio-examples-list-item-img {
 }
