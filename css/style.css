@@ -178,7 +178,6 @@ ul {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* margin: 0px auto; */
 }
 .main-content-text {
   font-family: Roboto;
@@ -217,8 +216,7 @@ ul {
   background-color: var(--white-color);
   min-width: 100%;
 }
-.our-features {
-}
+
 .our-features-list {
   list-style: none;
   display: flex;
@@ -311,8 +309,6 @@ ul {
 .our-team-list-item:last-child {
   margin: 0;
 }
-.our-team-list-item-img {
-}
 
 .our-team-list-item-title {
   font-family: Roboto;
@@ -360,15 +356,11 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* padding-bottom: 60px; */
 }
 .footer-address-list {
   list-style: none;
 }
 .footer-address-list-item {
-  /* color: var(--main-grey-color); */
-  /* color: #ffffff99; */
-
   margin-bottom: 9px;
 }
 .footer-address-list-item:last-child {
@@ -429,6 +421,4 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   padding: 0px 24px 20px 24px;
-}
-.portfolio-examples-list-item-img {
 }
