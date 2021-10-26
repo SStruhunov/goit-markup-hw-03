@@ -69,8 +69,8 @@ ul {
   color: var(--blue-color);
 }
 .link-tel::before {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
   content: '';
   background-image: url(../images/tel.jpg);
   background-position: center;
@@ -79,8 +79,8 @@ ul {
   margin-right: 10px;
 }
 .link-mail::before {
-  width: 10px;
-  height: 16px;
+  width: 16px;
+  height: 12px;
   content: '';
   background-image: url(../images/mail.jpg);
   background-position: center;
@@ -206,6 +206,13 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
+.main-content-gradient {
+  width: auto;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) ;);
+}
 /* ----------------Section click --------------------*/
 .main-content-click {
   background-color: var(--footer-bg-color);
@@ -265,7 +272,10 @@ ul {
   content: '';
   display: block;
   height: 120px;
+  background-image: url(../images/antenna.svg);
   background-color: var(--secondary-grey-color);
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 4px;
   margin-bottom: 30px;
 }
