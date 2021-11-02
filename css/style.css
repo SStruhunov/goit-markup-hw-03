@@ -432,13 +432,13 @@ ul {
 }
 
 .social-icon-item:hover {
-  border: #2196f3;
   border-radius: 50% 50%;
   background: #2196f3;
   color: var(--white-color);
   fill: white;
 }
 .social-icon-svg {
+  text-align: center;
   width: 20px;
   height: 20px;
   margin: 12px;
@@ -525,10 +525,12 @@ ul {
 .footer-social {
   width: 206px;
   height: 80px;
-  border: 1px solid #2196f3;
-  border-radius: 8px;
+
   display: flex;
+
   flex-direction: column;
+  margin-left: 70px;
+  margin-top: 9px;
 }
 .footer-social-title {
   display: block;
@@ -563,13 +565,12 @@ ul {
   border-radius: 50% 50%;
 }
 .footer-social-link:hover {
+  background-color: var(--blue-color);
 }
 .footer-svg {
   width: 20px;
   height: 20px;
   margin: 12px;
-  /* background: rgba(255, 255, 255, 0.1); */
-  /* border-radius: 50% 50%; */
   fill: var(--white-color);
 }
 /* ------------------------------Portfolio------------------------------------- */
